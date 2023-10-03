@@ -100,7 +100,7 @@ function imprimirTabuada(numero: number){
     let num = readline.questionInt("Insira um número: ");
     let tabuada = " ";
     for (var count=1; count<=10 ; count++){
-        tabuada += num+" x "+count+" = "+ num*count;
+        tabuada += `\n ${num} x ${count} = ${num*count}`;
     }
     console.log(tabuada);
 }
