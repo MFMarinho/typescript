@@ -20,13 +20,14 @@ import readline from "readline-sync";
 
 // class Aluno extends Pessoa {
 //     matricula: number;
-//     constructor (matricula: number){
-//         super();
+//     constructor (nome: string, idade: number, email: string, matricula: number){
+//         super(nome, idade, email);
 //         this.matricula = matricula;
 //     }
 // }
 
-// let lucas = new Aluno();
+// let lucas = new Aluno("Lucas", 26, "email@email.com", 1);
+// console.log(lucas);
 
 // EXERCICIO 03
 
@@ -48,6 +49,4 @@ import readline from "readline-sync";
 // }
 
 // let teste = new Retangulo (1,2);
-// console.log(teste);
-
-
+// console.log(teste.area());
