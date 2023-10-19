@@ -50,3 +50,54 @@ import readline from "readline-sync";
 
 // let teste = new Retangulo (1,2);
 // console.log(teste.area());
+
+// EXERCICIO 04
+
+// class Circulo {
+//     raio: number;
+//     constructor(raio: number){
+//         this.raio = raio;
+//     }
+
+//     area(raio: number) {
+//         let area = Math.PI * (raio^2);
+//         return area;
+//     }
+
+//     circuferencia(raio: number) {
+//         let circ = 2 * Math.PI * raio;
+//         return circ;
+//     }
+// }
+
+// let teste2 = new Circulo(2);
+// console.log(teste2.circuferencia(3));
+
+// EXERCICIO 05
+
+// class ContaBancaria{
+//     saldo: number;
+//     numeroConta: number;
+//     constructor(saldo: number, numeroConta: number){
+//         this.saldo = saldo;
+//         this.numeroConta = numeroConta;
+//     }
+
+//     depositar(valor){
+//         this.saldo += valor;
+//         console.log("Deposito realizado com sucesso!");
+//     }
+
+//     sacar(valor){
+//         this.saldo -= valor;
+//         console.log("Saque realizado com sucesso!");
+//     }
+
+//     verificarSaldo(){
+//         console.log(`Seu saldo é ${this.saldo}.`);
+//     }
+// }
+
+// EXERCICIO 06
+
+
